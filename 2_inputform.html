@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMt</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+        body{
+            font-family: "jost", sans-serif;
+        }
+        h1{
+            font-size: 30px;
+        }
+        form{
+            font-size: 18px;
+        }
+        #button{
+            color: rgb(40, 13, 4);
+            background-color: rgb(230, 149, 120);
+            padding: 10px;
+            font-weight: 600;
+            border-radius: 6px;}
+            #button:hover{
+                color: rgb(235, 9, 54);
+                background-color: rgb(204, 131, 145);
+            }
+        </style>
+        
+</head>
+<body>
+    <h1>User Information Form</h1><br />
+    <form>
+        <div>
+            <label for="name">Username: </label>
+            <input type="text" id="name" name="name" required>
+        </div><br /> 
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required>
+        </div><br /> 
+        <div>
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="password" required>
+        </div><br />
+        <div>
+            <label for="number">Age: </label>
+            <input type="number" id=number" name="number" min="0" required>
+        </div><br /> 
+        <div>
+            <label for="birthdate">Birth Date: </label>
+            <input type="date" id="birthdate" name="birthdate" required>
+        </div><br /> 
+        <input type="submit" id="button">
+    </form>
+</body>
+</html>

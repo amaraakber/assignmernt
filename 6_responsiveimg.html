@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+        body{
+            font-family: "jost", sans-serif;
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+        }
+        img{
+            height: auto;
+            width: 100%;
+        }
+        h1{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive Image</h1>
+    <picture>
+        <source src="./images/image-800.png" media="(min-width:800px)">
+        <source src="./images/image-500.png" media="(min-width:500px)">
+        <img src="./images/small-img.png" alt="image">
+    </picture>
+    <footer>
+        <p>Image displayed above adjust based on screen size</p>
+    </footer>
+</body>
+</html>

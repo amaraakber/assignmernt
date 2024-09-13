@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table tag</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+        body{
+            font-family: "jost", sans-serif;
+        }
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        tr,th, td{
+            padding: 10px;
+            border: 1px solid black;
+           
+        }
+    </style>
+</head>
+<body>
+     <h1>Table tag</h1><br />
+     <table>
+        <thead>
+            <tr>
+                <th colspan="7">Time Table</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="6"><strong>Hours</strong></td>
+                <td><strong>Monday</strong></td>
+                <td><strong>Tuesday</strong></td>
+                <td><strong>Wednesday</strong></td>
+                <td><strong>Thursday</strong></td>
+                <td><strong>Friday</strong></td>
+                <td><strong>Saturday</strong></td>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>Math</td>
+                <td>Math</td>
+                <td>Math</td>
+                <td>Math</td>
+                <td>Math</td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Science</td>
+                <td>Science</td>
+                <td>Science</td>
+                <td>Science</td>
+                <td>Science</td>
+            </tr>
+            <tr>
+                <td colspan="6"><strong>Lunch Time</strong></td>
+            </tr>
+            <tr>
+                <td>Urdu</td>
+                <td>Urdu</td>
+                <td>Urdu</td>
+                <td>Urdu</td>
+                <td>Urdu</td>
+                <td rowspan="2">Games</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>English</td>
+                <td>English</td>
+                <td>English</td>
+                <td>English</td>
+            </tr>
+        </tbody>
+     </table>
+</body>
+</html>
